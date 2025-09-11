@@ -1,0 +1,69 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3;
+    color: #333;
+    text-align: center;
+    margin: 40px;
+}
+
+/* Title styling */
+h1 {
+    color: #2b4d82;
+    margin-bottom: 20px;
+}
+
+/* Div container for the Little Prince image and text */
+.little-prince-container {
+    width: 350px;
+    margin: 20px auto;       /* centers the div */
+    background-color: orange;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Image inside the div */
+.little-prince-container img {
+    width: 100%;             /* image fills the div width */
+    border-radius: 5px;
+}
+
+/* Paragraph text inside the div */
+.little-prince-container p {
+    margin-top: 10px;
+}
+
+/* Links */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007acc;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: #005fa3;
+}
+
+
+/* Sentences inside quotes will be red */
+.quoted {
+    color: red;
+}
+
+/* Underlined sentences */
+.underlined {
+    text-decoration: underline;
+}
+
+/* Highlighted sentence */
+.highlighted {
+    background-color: yellow;
+}
